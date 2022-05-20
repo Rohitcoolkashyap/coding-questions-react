@@ -1,0 +1,60 @@
+.otp {
+  background-color: #f2f2f3;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+.otp-container {
+  width: 400px;
+  margin: auto;
+  height: 300px;
+
+  min-width: 360px;
+  padding: 2rem;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  border-radius: 4px;
+  background: white;
+}
+.otp-container > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.otp-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.inputStyle {
+  width: 3rem !important;
+  height: 3rem;
+  margin: 0 1rem;
+  font-size: 2rem;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.otp-input-boxes {
+  margin: 2rem 0;
+}
+.text-align-center {
+  text-align: center;
+}
+.btn {
+  background-color: #3273dc;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 1rem;
+}
+.margin-top--large {
+  margin-top: 4rem;
+}
